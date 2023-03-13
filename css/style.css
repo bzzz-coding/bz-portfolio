@@ -495,7 +495,7 @@ body.offcanvas {
   text-transform: uppercase;
   font-family: "Quicksand", Arial, sans-serif;
   /* background-color: #64dfeb; */
-  background-color: #5d3c85;
+  background-color: #856cb0;
   color: #fff;
   position: relative;
   -webkit-box-shadow: none !important;
@@ -862,7 +862,7 @@ body.offcanvas {
     height: 100px;
     display: table;
     text-align: center;
-    background: #f2f3f7;
+    background: #856cb0;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
@@ -870,7 +870,7 @@ body.offcanvas {
     .colorlib-feature .colorlib-icon i {
       display: table-cell;
       vertical-align: middle;
-      color: #64dfeb;
+      color: #fff;
       font-size: 60px;
       height: 100px; }
       @media screen and (max-width: 1200px) {
@@ -892,7 +892,7 @@ body.offcanvas {
   .colorlib-feature.colorlib-feature-sm .colorlib-text {
     margin-top: 30px; }
   .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
-    color: #64dfeb;
+    color: #fff;
     font-size: 40px; }
     @media screen and (max-width: 1200px) {
       .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
@@ -1574,4 +1574,24 @@ body.offcanvas {
 
 .skill-desc {
   height: 120px;
+}
+
+.resume-link {
+  color: white;
+}
+
+.social-icon:hover {
+  color: #fff;
+}
+
+.college-name {
+  color: #5d3c85;
+}
+
+.college-name:hover {
+  color: #7800a0;
+}
+
+.colorlib-feature .colorlib-icon i:hover {
+  color: rgb(100, 223, 235);
 }
