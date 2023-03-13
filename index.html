@@ -673,8 +673,7 @@
 					</div>
 				</section>
 
-				<div id="colorlib-counter" class="colorlib-counters"
-					style="background-image: url(images/cover_bg1.png);" data-stellar-background-ratio="0.5">
+				<div id="colorlib-counter" class="colorlib-counters" data-stellar-background-ratio="0.5">
 					<div class="overlay"></div>
 					<div class="colorlib-narrow-content">
 						<div class="row">
@@ -702,9 +701,26 @@
 					</div>
 				</div>
 
+				<footer id="footer">
+						<p>Copyright &copy;Bitian Zhang <span id="copyrightYear"></span></p>
+				</footer>
+				
+				<!-- Scripts -->
+				<script>
+						// Get the current year
+						const currentYear = new Date().getFullYear();
+				
+						// Get the element with the id "copyrightYear"
+						const yearElement = document.querySelector("#copyrightYear");
+				
+						// Insert the current year into the yearElement
+						yearElement.innerHTML = currentYear;
+				</script>
 			</div><!-- end:colorlib-main -->
 		</div><!-- end:container-wrap -->
 	</div><!-- end:colorlib-page -->
+
+	
 
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>

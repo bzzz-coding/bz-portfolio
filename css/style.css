@@ -1080,17 +1080,19 @@ body.offcanvas {
 
 .colorlib-counters {
   padding: 3em 0;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center; }
-  .colorlib-counters .overlay {
+  /* background-size: cover; */
+  /* background-attachment: fixed; */
+  /* background-position: center center; */
+  background-color: #311a4d; 
+}
+  /* .colorlib-counters .overlay {
     z-index: 0;
     position: absolute;
     bottom: 0;
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(52,32,77,.7);}
+    background: rgba(52,32,77,.7);} */
   .colorlib-counters .icon {
     width: 100px;
     height: 100px;
@@ -1594,4 +1596,8 @@ body.offcanvas {
 
 .colorlib-feature .colorlib-icon i:hover {
   color: rgb(100, 223, 235);
+}
+
+#footer {
+  text-align: center;
 }
