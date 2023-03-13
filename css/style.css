@@ -1050,7 +1050,7 @@ body.offcanvas {
       .project .desc span a {
         color: #000; }
     @media screen and (max-width: 768px) {
-      .project .desc {
+      .project .desc:hover {
         opacity: 1;
         background: rgba(49,26,77, 0.8); }
         .project .desc h3 {
