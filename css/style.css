@@ -378,7 +378,7 @@ body.offcanvas {
     transform: translateX(0);
     width: 300px;
     height: 100%;
-    background: #f2f3f7;
+    background: #1f1b25;
     z-index: 999;
     position: fixed; }
   body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
@@ -527,7 +527,7 @@ body.offcanvas {
   content: "\e114"; }
 
 .panel-heading a.collapsed {
-  background: #f2f3f7;
+  background: #1f1b25;
   border: 1px solid #e6e6e6 !important;
   color: #333333; }
 
@@ -559,7 +559,7 @@ body.offcanvas {
   position: absolute;
   display: block;
   width: 4px;
-  background: #f2f3f7;
+  background: #1f1b25;
   top: 20px;
   bottom: 20px;
   margin-left: 29px; }
@@ -585,9 +585,9 @@ body.offcanvas {
   -ms-border-radius: 50%;
   border-radius: 50%;
   text-align: center;
-  -moz-box-shadow: 0 0 0 5px #f2f3f7;
-  -webkit-box-shadow: 0 0 0 5px #f2f3f7;
-  box-shadow: 0 0 0 5px #f2f3f7;
+  -moz-box-shadow: 0 0 0 5px #1f1b25;
+  -webkit-box-shadow: 0 0 0 5px #1f1b25;
+  box-shadow: 0 0 0 5px #1f1b25;
   line-height: 40px;
   float: left; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
@@ -608,7 +608,7 @@ body.offcanvas {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
-  background: #f2f3f7;
+  background: #1f1b25;
   padding: 1.5em;
   margin-left: 60px;
   -webkit-background-clip: padding-box;
@@ -623,7 +623,7 @@ body.offcanvas {
   height: 0;
   border-style: solid;
   border-width: 9px 9px 9px 0;
-  border-color: transparent #f2f3f7 transparent transparent;
+  border-color: transparent #1f1b25 transparent transparent;
   left: 0;
   top: 10px;
   margin-left: -9px; }
@@ -771,7 +771,7 @@ body.offcanvas {
   height: 6px;
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: #f2f3f7;
+  background: #1f1b25;
   overflow: visible; }
 
 .progress-bar {
@@ -1052,12 +1052,12 @@ body.offcanvas {
     @media screen and (max-width: 768px) {
       .project .desc {
         opacity: 1;
-        background: rgba(0, 0, 0, 0.4); }
+        background: rgba(49,26,77, 0.8); }
         .project .desc h3 {
           font-style: 28px;
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
-          color: #000; }
+          color: #fff; }
         .project .desc span {
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0); } }
@@ -1326,7 +1326,7 @@ body.offcanvas {
   box-shadow: none;
   background: transparent;
   border: transparent;
-  background: #f2f3f7;
+  background: #1f1b25;
   height: 54px;
   font-size: 16px;
   font-weight: 400;
