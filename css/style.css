@@ -648,6 +648,7 @@ body.offcanvas {
   font-size: 16px; }
 
 .services {
+  height: 300px;
   margin-bottom: 30px;
   padding: 1.5em;
   -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
@@ -972,8 +973,8 @@ body.offcanvas {
   /* background-position: center center; */
   background-repeat: no-repeat;
   position: relative;
-  height: 300px;
   width: 100%;
+  aspect-ratio: 1 / 1;
   display: block;
   margin-bottom: 30px; }
   .project .desc {
@@ -1532,7 +1533,6 @@ body.offcanvas {
 .bg-overlay {
   background-color: rgba(133,108,176, 0.3); /* Black background with opacity */
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-  cursor: pointer; /* Add a pointer on hover */
 }
 
 /* Video background sizing */
