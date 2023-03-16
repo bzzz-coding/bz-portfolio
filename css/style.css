@@ -1569,9 +1569,12 @@ body.offcanvas {
   border-color: #00b8d5;
 }
 
+div.con {
+  height: 100%;
+}
+
 .tech-used {
-  position: absolute;
-  bottom: 1%;
+  margin-top: 15%;
 }
 
 .skill-desc {
