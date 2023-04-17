@@ -1604,3 +1604,93 @@ div.con {
 #footer {
   text-align: center;
 }
+
+/* Animated Scroll Down Arrow */
+.arrow-container {
+  display: block;
+  width: 3%;
+  height: 5%;
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  z-index: 1001;
+  transform: translate(-100%, -100%) rotateZ(0deg);
+}
+@media screen and (max-width: 768px) {
+  .arrow-container {
+    display: block;
+    width: 3%;
+    height: 5%;
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    z-index: 1001;
+    transform: translate(-100%, -100%) rotateZ(0deg);
+  }
+  .arrow-container:hover .arrow {
+    top: 50%;
+    animation-play-state: paused;
+  }
+}
+
+.arrow-container:hover {
+  cursor: pointer;
+}
+.arrow-container:hover .arrow {
+  top: 50%;
+  animation-play-state: paused;
+}
+
+.arrow-container:hover .arrow:before {
+  transform: translate(-50%, -50%) rotateZ(-30deg);
+}
+.arrow-container:hover .arrow:after {
+  transform: translate(-50%, -50%) rotateZ(30deg);
+}
+.arrow {
+  position: absolute;
+  left: 50%;
+  transition: all 0.4s ease;
+  animation: jumpInfinite 2s infinite;
+}
+
+.arrow:before, .arrow:after {
+  transition: all 0.4s ease;
+  content: '';
+  display: block;
+  position: absolute;
+  transform-origin: bottom right;
+  background: #fff;
+  width: 4px;
+  height: 50px;
+  border-radius: 10px;
+  transform: translate(-50%, -50%) rotateZ(-50deg);
+}
+.arrow:after {
+  transform-origin: bottom left;
+  transform: translate(-50%, -50%) rotateZ(50deg);
+}
+.arrow:nth-child(1) {
+  opacity: 0.3;
+  top: 35%;
+}
+.arrow:nth-child(2) {
+  opacity: 0.6;
+  top: 55%;
+}
+.arrow:nth-child(3) {
+  opacity: 0.9;
+  top: 75%;
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
